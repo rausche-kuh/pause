@@ -2,6 +2,11 @@
 
 Full-screen, blurred-backdrop break prompts for KDE Plasma (Wayland):
 
+<p align="center">
+  <img src="screenshots/walk.webp" width="49%" alt="Walking-pad prompt over a blurred desktop">
+  <img src="screenshots/eye.webp" width="49%" alt="Eye-break prompt with a countdown ring">
+</p>
+
 - **Eye break**: after every 45 minutes of unlocked screen time, 30 s of looking out the window.
 - **Walking pad**: at 9:30 and 14:30 on weekdays. The main button unlocks after the 20 s it takes to set up the pad.
 
