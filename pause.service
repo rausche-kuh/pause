@@ -1,0 +1,12 @@
+[Unit]
+Description=Pause: eye breaks and walking-pad prompts
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 %h/.local/share/pause/pause.py run
+Environment=QT_QPA_PLATFORM=wayland
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
